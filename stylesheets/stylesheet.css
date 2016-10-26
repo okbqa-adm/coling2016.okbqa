@@ -298,6 +298,9 @@ Full-Width Styles
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
 }
+#header_wrap .inner_button {
+  padding: 50px 100px 30px 10px;
+}
 
 #project_title {
   margin: 0;
@@ -514,7 +517,6 @@ input::-moz-focus-inner {
 }
 .button {
   border: 0;
-  background-color: #525b64;
   line-height: normal;
   padding: .8em 2em;
   text-decoration: none;
@@ -527,7 +529,7 @@ input::-moz-focus-inner {
   transition: all 0.3s;
   font-weight: 700;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 .button:hover,
 .button:active {
@@ -536,11 +538,11 @@ input::-moz-focus-inner {
   background-color: #3f464c;
 }
 .button-primary {
-  background-color: #ffff99;
+  background-color: #009EF6;
 }
 .button-primary:hover,
 .button-primary:active {
-  background-color: #ffff33;
+  background-color: #009EF6;
 }
 .button-link {
   color: #2cc7c1;
